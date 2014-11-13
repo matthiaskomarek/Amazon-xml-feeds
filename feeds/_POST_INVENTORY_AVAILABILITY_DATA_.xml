@@ -4,16 +4,14 @@
 		<DocumentVersion>1.01</DocumentVersion>
 		<MerchantIdentifier>My_Seller_ID</MerchantIdentifier>
 	</Header>
-	<MessageType>Relationship</MessageType>
+	<MessageType>Inventory</MessageType>
 	<Message>
 		<MessageID>1</MessageID>
 		<OperationType>Update</OperationType>
-		<Relationship>
-			<ParentSKU>ParentSKU</ParentSKU>
-			<Relation>
-				<SKU>ChildSKU</SKU>
-				<Type>Variation</Type>
-			</Relation>
-		</Relationship>
+		<Inventory>
+			<SKU>ASUSVNA1</SKU>
+			<Quantity>8</Quantity>
+			<FulfillmentLatency>1</FulfillmentLatency>
+		<Inventory>
 	</Message>
 </AmazonEnvelope>
