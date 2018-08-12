@@ -12,6 +12,6 @@
 			<SKU>ASUSVNA1</SKU>
 			<Quantity>8</Quantity>
 			<FulfillmentLatency>1</FulfillmentLatency>
-		<Inventory>
+		</Inventory>
 	</Message>
 </AmazonEnvelope>
